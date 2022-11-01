@@ -69,7 +69,8 @@ public class VehicleService {
 		mailBody = mailBody+"Owner MobNo. : "+vehicleOnboarding.getOwnerMobNo()+"<br>";
 		mailBody = mailBody+"Onboard date : "+vehicleOnboarding.getVehicleOnboardDate()+"<br>";
 		mailBody = mailBody+"Deatiling Info : "+vehicleOnboarding.getVehicleDetailingInfo()+"<br>";
-		scheduleEmailRequest.setEmail("arjunarjunme@gmail.com");
+//		scheduleEmailRequest.setEmail("arjunarjunme@gmail.com");
+		scheduleEmailRequest.setEmail("vmanoob@gmail.com");
 		scheduleEmailRequest.setSubject(vehicleOnboarding.getVehicleModel()+' '+vehicleOnboarding.getVehicleNumber());
 		scheduleEmailRequest.setBody(mailBody);
 		DateFormat format = new SimpleDateFormat("MM/dd/yyyy");
